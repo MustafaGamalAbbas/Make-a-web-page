@@ -1,0 +1,108 @@
+
+#header {
+    height: auto;
+    background-color: #333;
+    
+    width:  auto;
+}
+#header #vav{
+}
+#header #nav ul {
+    
+    list-style-type: none;
+    margin: 10px 100px 0px 100px;    
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#header #nav li {
+    float: left;
+}
+
+
+#header #nav  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#header #nav a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ 
+.row {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .block {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+  }
+.block #p{
+
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    
+}
+.block_p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+  
+}
+
+.logo{
+    text-align: center;
+    width: 140px;
+    height: 100px;    
+}
+#social_wraper{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+}
+.social_icon{
+    width: 50px;
+    height: 50px;
+}
+#parag{
+    margin: 20px 100px 100px 100px;
+    text-align: center;
+}
+#acknowledge{
+    text-align: center;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+#acknowledge:link, #acknowledge:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#acknowledge:hover, #acknowledge:active {
+    font-size: 18px;
+}
